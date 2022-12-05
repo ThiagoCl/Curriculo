@@ -109,7 +109,7 @@ div.nav2{
 .submenu li.sub {
     width: 50px;
     height: 50px;
-    background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/nav1.png") no-repeat;
+    background: url("IMG/nav1.png") no-repeat;
 }
 
 div.nav2 ul{
@@ -156,17 +156,17 @@ div.nav2 nav ul li a:hover {
     color: #000000;
 }
 
-nav ul li.home2 a{background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/home1.png") no-repeat;}
-nav ul li.info2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/curriculo1.png") no-repeat ;}
-nav ul li.serv2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/servicos1.png") no-repeat ;}
-nav ul li.prop2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/prop1.png") no-repeat ;}
-nav ul li.Cont2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/contato1.png") no-repeat ;}
+nav ul li.home2 a{background: url("IMG/home1.png") no-repeat;}
+nav ul li.info2 a {background: url("IMG/curriculo1.png") no-repeat ;}
+nav ul li.serv2 a {background: url("IMG/servicos1.png") no-repeat ;}
+nav ul li.prop2 a {background: url("IMG/prop1.png") no-repeat ;}
+nav ul li.Cont2 a {background: url("IMG/contato1.png") no-repeat ;}
 
-nav ul li.home2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/home2.png") no-repeat ;}
-nav ul li.info2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/curriculo2.png") no-repeat ;}
-nav ul li.serv2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/servicos2.png") no-repeat ;}
-nav ul li.prop2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/prop2.png") no-repeat ;}
-nav ul li.Cont2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/contato2.png") no-repeat ;}
+nav ul li.home2 a:hover {background: url("IMG/home2.png") no-repeat ;}
+nav ul li.info2 a:hover {background: url("IMG/curriculo2.png") no-repeat ;}
+nav ul li.serv2 a:hover {background: url("IMG/servicos2.png") no-repeat ;}
+nav ul li.prop2 a:hover {background: url("IMG/prop2.png") no-repeat ;}
+nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 
 
 /*========================================== curriculo ==========================================*/
