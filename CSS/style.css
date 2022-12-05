@@ -1,0 +1,435 @@
+/* CSS Document*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("IMG/bc.png");
+}
+
+.container-principal{
+    font-family: Verdana, Tahoma, sans-serif;
+    overflow: auto;
+}
+
+header{
+    
+    width: auto;
+    height: 100px;
+    background-color: rgba(206, 206, 206, 0.925);
+    position: relative;
+    top: 0;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 3px;
+    padding: 3px;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+
+.logo img{
+    width: 100%;
+    margin: 1%;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+/* =====================================Definir propriedades do menu ========================================*/
+
+
+/* ================================================= NAV1 =====================================================*/
+div.nav1 nav{
+    position: absolute; 
+    right: 0px;
+    bottom: 10%;
+}
+
+div.nav1 nav ul {
+    width: 100%;
+    overflow: auto;
+}
+
+div.nav1 nav ul li {
+    float: left;
+    color: aliceblue;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    list-style: none;
+}
+
+div.nav1 nav ul li a {
+    text-decoration: none; 
+    text-align: right;
+    padding: 10px;
+    padding-left: 40px;
+    color: rgb(99, 99, 99);
+}
+
+div.nav1 nav ul li a:hover {
+    color: #000000;
+}
+
+nav ul li.home a{background: url("IMG/home1.png") no-repeat ;}
+nav ul li.info a {background: url("IMG/curriculo1.png") no-repeat ;}
+nav ul li.serv a {background: url("IMG/servicos1.png") no-repeat ;}
+nav ul li.prop a {background: url("IMG/prop1.png") no-repeat ;}
+nav ul li.Cont a {background: url("IMG/contato1.png") no-repeat ;}
+
+nav ul li.home a:hover {background: url("IMG/home2.png") no-repeat ;}
+nav ul li.info a:hover {background: url("IMG/curriculo2.png") no-repeat ;}
+nav ul li.serv a:hover {background: url("IMG/servicos2.png") no-repeat ;}
+nav ul li.prop a:hover {background: url("IMG/prop2.png") no-repeat ;}
+nav ul li.Cont a:hover {background: url("IMG/contato2.png") no-repeat ;}
+
+/* ================================================== NAV2 =======================================================*/
+
+div.nav2{
+    display: none;
+    float: right;
+    margin-top: 20px;
+    text-align: right;
+    padding: 10px;
+}
+
+.submenu{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.submenu li.sub {
+    width: 50px;
+    height: 50px;
+    background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/nav1.png") no-repeat;
+}
+
+div.nav2 ul{
+    list-style: none;
+    width: auto;
+}
+
+div.nav2 ul li {
+    position: relative;
+}
+
+div.nav2 li ul {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(182, 182, 182);
+    right: 50px;
+    top: 5px;
+    position: absolute;
+    display: none;
+}
+
+div.nav2 li ul li{
+    padding: 10%;
+    text-align: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+div.nav2 li:hover ul {
+    display: block;
+}
+
+div.nav2 nav ul li a {
+    text-decoration: none; 
+    text-align: right;
+    padding: 10px;
+    padding-left: 40px;
+    color: rgb(99, 99, 99);
+}
+
+div.nav2 nav ul li a:hover {
+    color: #000000;
+}
+
+nav ul li.home2 a{background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/home1.png") no-repeat;}
+nav ul li.info2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/curriculo1.png") no-repeat ;}
+nav ul li.serv2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/servicos1.png") no-repeat ;}
+nav ul li.prop2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/prop1.png") no-repeat ;}
+nav ul li.Cont2 a {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/contato1.png") no-repeat ;}
+
+nav ul li.home2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/home2.png") no-repeat ;}
+nav ul li.info2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/curriculo2.png") no-repeat ;}
+nav ul li.serv2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/servicos2.png") no-repeat ;}
+nav ul li.prop2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/prop2.png") no-repeat ;}
+nav ul li.Cont2 a:hover {background: url("/fundacao_bradesco/HTML_e_CSS_na_Pratica/SITES/TESTE1/IMG/contato2.png") no-repeat ;}
+
+
+/*========================================== curriculo ==========================================*/
+
+.curriculo{
+    width: auto;
+    overflow: auto;
+    margin: 3px;
+    padding: 25px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    background: rgba(182, 182, 182, 0.712);
+}
+
+.curriculo h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.curriculo p{
+    margin: 20px;
+    padding: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background:  rgb(182, 182, 182);
+}
+
+/* ========================================== Formações ========================================== */
+
+.formacoes{
+    background: RGB(182, 182, 182);
+    float: left;
+    width: 25%;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 7px;
+    overflow: auto
+}
+
+.formacoes h2 {
+    text-align: center;
+    
+}
+.formacoes ul {
+    margin-left: 25px;
+}
+
+/*========================================== experiencias ================================================*/
+
+.experiencias{
+    background: RGB(182, 182, 182);
+    float: left;
+    width: 40%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 7px;
+    overflow: auto
+}
+
+.experiencias h2 {
+    text-align: center;
+}
+
+.experiencias ul {
+    margin-left: 25px;
+}
+
+/* ======================================= Informações complementares =======================================*/
+
+.infconp{
+    background: RGB(182, 182, 182);
+    float: left;
+    width: 25%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 7px;
+    overflow: auto;
+}
+
+.infconp h2 {
+    text-align: center;
+}
+
+.infconp ul {
+    margin-left: 25px;
+}
+
+/*=========================================== serviços ======================================================*/
+
+.servicos {
+    width: auto;
+    overflow: auto;
+    margin: 3px;
+    padding: 10px;
+    border: 1px solid black;
+    background: rgba(182, 182, 182, 0.726);
+}
+
+.servicos h1 {
+    text-align: center;
+}
+
+/*========================================== Desenvolvimento WEB ===========================================*/
+.devweb {
+    background: RGB(182, 182, 182);
+    overflow: auto;
+    float: left;
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.devweb h3{
+    text-align: center;
+    margin: 3px;
+}
+
+/*=============================================== suporte =================================================*/
+
+.suporte {
+    background: RGB(182, 182, 182);
+    overflow: auto;
+    float: left;
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.suporte h3 {
+    text-align: center;
+    margin: 3px;
+}
+
+/*============================================== propostas =================================================*/
+
+.proposta {
+    width: auto;
+    overflow: auto;
+    margin: 3px;
+    padding: 10px;
+    border: 1px solid black;
+    background: rgba(182, 182, 182, 0.733);
+    
+}
+
+.proposta h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.proposta p.textprop {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form {
+    background: RGB(182, 182, 182);
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 40%;
+    overflow: auto;
+    margin-left: 30%;
+    padding: 10px;
+    text-align: center;
+     
+}
+
+.form form.formprop input.envio{padding: 5px 5% 1px 5%; border: 1px solid rgba(0, 0, 0, 0); border-radius: 5px;}
+.form form.formprop input.envio:hover {padding: 5px 5% 1px 5%; border: 1px solid; border-radius: 5px;}
+.form form.formprop input {padding: 3px 5% 3px 2%; margin: 4px; border: 0px; border-radius: 5px; width: 30%;}
+.form form.formprop textarea.texto {padding: 5px 20px 5px 20px; border: 1px solid rgba(0, 0, 0, 0); border-radius: 5px;  height: 130px; width: 70%;}
+
+/*============================================== rodape =================================================*/
+
+
+.contato{
+    width: auto;
+    overflow: auto;
+    margin: 3px;
+    padding: 10px;
+    border: 1px solid black;
+    background: rgba(182, 182, 182, 0.902);
+}
+
+.rodape {
+    float: right;
+    padding: 3px;
+}
+
+.rodape ul li a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    
+}
+
+.rodape ul li a img{
+    width: 20px;
+    
+}
+
+.rodape ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.rodape ul li {
+    margin: 5px;
+    list-style: none;
+}
+
+@media screen and (max-width: 800px){
+    div.nav1{
+        display: none;
+    }
+    div.nav2{
+        display: block;
+    }
+    .formacoes {
+        float: none;
+        width: 90%;
+    }
+
+    .experiencias{
+        float: none;
+        width: 90%;
+    }
+
+    .infconp{
+        float: none;
+        width: 90%;
+    }
+
+    .devweb {
+        width: 90%;
+    }
+
+    .suporte {
+        width: 90%;
+    }
+
+    .form{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    div.nav1{
+        display: block;
+    }
+
+    div.nav2{
+        display: none;
+    }
+   
+}
