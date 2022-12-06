@@ -349,9 +349,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 .form form.formprop input {padding: 3px 5% 3px 2%; margin: 4px; border: 0px; border-radius: 5px; width: 30%;}
 .form form.formprop textarea.texto {padding: 5px 20px 5px 20px; border: 1px solid rgba(0, 0, 0, 0); border-radius: 5px;  height: 130px; width: 70%;}
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
-input.tel [type=number] {-moz-appearance:textfield;}
+input.tel::-webkit-inner-spin-button {appearance: none; margin: 0;}
 
 /*============================================== rodape =================================================*/
 
