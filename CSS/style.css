@@ -6,7 +6,9 @@
 }
 
 body {
-    background-image: url("IMG/bc.png");
+    /*background-image: url("IMG/bc.png");*/
+    background-image: url("IMG/bcc.png");
+    background-color: white;
 }
 
 .container-principal{
@@ -18,7 +20,7 @@ header{
     
     width: auto;
     height: 100px;
-    background-color: rgba(206, 206, 206, 0.925);
+    background-color: rgba(255, 255, 255, 0.925);
     position: relative;
     top: 0;
     border: 1px solid rgb(0, 0, 0);
@@ -178,7 +180,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
     padding: 25px;
     padding-bottom: 10px;
     border: 1px solid black;
-    background: rgba(182, 182, 182, 0.712);
+    background: rgba(255, 255, 255, 0.925);
 }
 
 .curriculo h1{
@@ -191,13 +193,13 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
     padding: 25px;
     border-radius: 25px;
     border: 1px solid black;
-    background:  rgb(182, 182, 182);
+    background:  rgb(255, 255, 255);
 }
 
 /* ========================================== Formações ========================================== */
 
 .formacoes{
-    background: RGB(182, 182, 182);
+    background: rgb(255, 255, 255);
     float: left;
     width: 25%;
     padding: 5px;
@@ -219,7 +221,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 /*========================================== experiencias ================================================*/
 
 .experiencias{
-    background: RGB(182, 182, 182);
+    background: rgba(255, 255, 255);
     float: left;
     width: 40%;
     padding: 5px;
@@ -241,7 +243,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 /* ======================================= Informações complementares =======================================*/
 
 .infconp{
-    background: RGB(182, 182, 182);
+    background: rgba(255, 255, 255);
     float: left;
     width: 25%;
     padding: 5px;
@@ -268,7 +270,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
     margin: 3px;
     padding: 10px;
     border: 1px solid black;
-    background: rgba(182, 182, 182, 0.726);
+    background: rgba(255, 255, 255, 0.925);
 }
 
 .servicos h1 {
@@ -277,7 +279,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 
 /*========================================== Desenvolvimento WEB ===========================================*/
 .devweb {
-    background: RGB(182, 182, 182);
+    background: rgba(255, 255, 255);
     overflow: auto;
     float: left;
     width: 40%;
@@ -295,7 +297,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 /*=============================================== suporte =================================================*/
 
 .suporte {
-    background: RGB(182, 182, 182);
+    background: rgba(255, 255, 255);
     overflow: auto;
     float: left;
     width: 40%;
@@ -318,7 +320,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
     margin: 3px;
     padding: 10px;
     border: 1px solid black;
-    background: rgba(182, 182, 182, 0.733);
+    background: rgba(255, 255, 255, 0.925);
     
 }
 
@@ -333,7 +335,7 @@ nav ul li.Cont2 a:hover {background: url("IMG/contato2.png") no-repeat ;}
 }
 
 .form {
-    background: RGB(182, 182, 182);
+    background: rgba(182, 182, 182);
     border: 1px solid black;
     border-radius: 25px;
     width: 40%;
@@ -360,7 +362,7 @@ input.tel::-webkit-inner-spin-button {appearance: none; margin: 0;}
     margin: 3px;
     padding: 10px;
     border: 1px solid black;
-    background: rgba(182, 182, 182, 0.902);
+    background: rgba(255, 255, 255, 0.925);
 }
 
 .rodape {
@@ -370,7 +372,7 @@ input.tel::-webkit-inner-spin-button {appearance: none; margin: 0;}
 
 .rodape ul li a{
     text-decoration: none;
-    color: rgb(99, 99, 99);
+    color: rgba(0, 0, 0, 0.781);
     
 }
 
